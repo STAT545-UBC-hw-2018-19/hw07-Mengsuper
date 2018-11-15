@@ -1,3 +1,5 @@
+(https://htmlpreview.github.io/?https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/doc/my_vignette.html)
+
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 powers
