@@ -4,41 +4,46 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, echo = FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "README-"
+  fig.path = "man/figures/README-",
+  out.width = "100%"
 )
 ```
-
-[![Build Status](https://travis-ci.org/vincenzocoia/powers.svg?branch=master)](https://travis-ci.org/vincenzocoia/powers)
-
-__Note__: This R package is not mean to be "serious". It's just for teaching purposes. 
-
 # powers
 
-This is an R package that gives `sqrt()` friends by providing other power functions.
+The goal of powers is to ...
 
 ## Installation
 
-You can install powers from github with:
+You can install the released version of powers from [CRAN](https://CRAN.R-project.org) with:
 
-```{r gh-installation, eval = FALSE}
-# install.packages("devtools")
-devtools::install_github("vincenzocoia/powers")
+``` r
+install.packages("powers")
 ```
 
 ## Example
 
-See the vignette for more extensive use, but here's an example:
+This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-powers::reciprocal(2)
+## basic example code
 ```
 
-## For Developers
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-(Again, I don't actually intend for anyone to develop this silly package, but if I did, here's what I'd write.)
+```{r cars}
+summary(cars)
+```
 
-Use the internal `pow` function as the machinery for the front-end functions such as `square`, `cube`, and `reciprocal`. 
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+
+You can also embed plots, for example:
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!

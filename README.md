@@ -1,39 +1,45 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+powers
+======
 
-[![Build
-Status](https://travis-ci.org/vincenzocoia/powers.svg?branch=master)](https://travis-ci.org/vincenzocoia/powers)
+The goal of powers is to ...
 
-**Note**: This R package is not mean to be “serious”. It’s just for
-teaching purposes.
+Installation
+------------
 
-# powers
-
-This is an R package that gives `sqrt()` friends by providing other
-power functions.
-
-## Installation
-
-You can install powers from github with:
+You can install the released version of powers from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("vincenzocoia/powers")
+install.packages("powers")
 ```
 
-## Example
+Example
+-------
 
-See the vignette for more extensive use, but here’s an example:
+This is a basic example which shows you how to solve a common problem:
 
 ``` r
-powers::reciprocal(2)
-#> [1] 0.5
+## basic example code
 ```
 
-## For Developers
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-(Again, I don’t actually intend for anyone to develop this silly
-package, but if I did, here’s what I’d write.)
+``` r
+summary(cars)
+#>      speed           dist       
+#>  Min.   : 4.0   Min.   :  2.00  
+#>  1st Qu.:12.0   1st Qu.: 26.00  
+#>  Median :15.0   Median : 36.00  
+#>  Mean   :15.4   Mean   : 42.98  
+#>  3rd Qu.:19.0   3rd Qu.: 56.00  
+#>  Max.   :25.0   Max.   :120.00
+```
 
-Use the internal `pow` function as the machinery for the front-end
-functions such as `square`, `cube`, and `reciprocal`.
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+
+You can also embed plots, for example:
+
+<img src="man/figures/README-pressure-1.png" width="100%" />
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
