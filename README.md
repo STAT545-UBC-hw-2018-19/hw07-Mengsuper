@@ -1,6 +1,6 @@
 hw07-Mengsuper created by GitHub Classroom
 
-This repository contains my submission for homework 7 in STAT 545A. The goals of this homework is to build your own R package
+This repository contains my submission for homework 7 in STAT 545A. The goals of this homework is to build your own R package.
 
 Document | Content
 --------- | --------
