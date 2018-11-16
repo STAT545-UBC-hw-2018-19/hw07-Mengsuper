@@ -1,3 +1,16 @@
+hw07-Mengsuper created by GitHub Classroom
+
+This repository contains my submission for homework 7 in STAT 545A. The goals of this homework is to build your own R package.
+
+Document | Content
+--------- | --------
+[boxCox.R](https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/R/boxCox.R) | Box-Cox tranform function
+[test_boxcox.R](https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/tests/testthat/test_boxcox.R) | Test file for Box-Cox tranform function
+[log.R](https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/R/log.R) | Log function
+[test_log.R](https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/tests/testthat/test_log.R) | Test file for Log function
+[exp.R](https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/R/exp.R) | Exp function
+[test_exp.R](https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/tests/testthat/test_exp.R) | Test file for Exp function
+[Vignette file](https://htmlpreview.github.io/?https://github.com/STAT545-UBC-students/hw07-Mengsuper/blob/master/doc/my_vignette.html) | Vignette file
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 powers
