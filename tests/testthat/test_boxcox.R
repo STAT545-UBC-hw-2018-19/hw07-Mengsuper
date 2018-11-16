@@ -12,7 +12,12 @@ test_that("Input is non-positive.", {
 
 test_that("At least numeric values work.", {
     x <- c(1, 8, 10)
-    expect_equal(boxCox(x), boxcox(x, 1))
+    lambda = 0
+    expect_equal(boxCox(x, lambda), log(x))
 })
 
+test_that("At least numeric values work.", {
+    x <- 2
+    expect_equal(boxCox(x), 1) # 1 is expected value
+})
 
